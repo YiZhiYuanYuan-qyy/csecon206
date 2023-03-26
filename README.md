@@ -18,18 +18,23 @@ Note: please insert the screenshot of the answers to your research question by C
 
 ## Table of Contents
 
+- model
 - code
 - spotlight
 - more about the author
 - references
 
-
+### model
+- Game Environment
+- Solution Concept
+- Evaluations: e.g. efficiency and fairness
 
 ### Code
-- Query Data
-- Process Data
-- Analyze Data
-- ...
+- Game Environment
+- Strategic plays
+- Equilibruim Evaluations: e.g. belief, strategy, and payoffs
+- oTree Experimental Code 
+
 
 ### Spotlight
 - Posters
