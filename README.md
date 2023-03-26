@@ -24,7 +24,7 @@ Note: please insert the screenshot of the answers to your research question by C
 - more about the author
 - references
 
-### model
+### Model
 - Game Environment
 - Solution Concept
 - Evaluations: e.g. efficiency and fairness
