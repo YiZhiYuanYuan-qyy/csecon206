@@ -28,7 +28,7 @@ Note: please insert the screenshot of the answers to your research question by C
 - Game Environment
 - Solution Concept
 - Evaluations: e.g. efficiency and fairness
-
+`$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ ` 
 ### Code
 - Game Environment
 - Strategic plays
