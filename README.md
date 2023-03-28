@@ -26,9 +26,17 @@ Note: please insert the screenshot of the answers to your research question by C
 
 ### Model
 - Game Environment
+	1. Players:  
+	There are 2 players participating in the game [player 1 and player 2]. 
+	2. Strategies:  
+	The strategies can be given the following names: in the first stage player 1 chooses either to Exit or to Engage. If player 1 chooses Engage, then player 2 in the second stage chooses between Cooperate and Defect.
+	3. Payoffs:
+		- For player 1, the payoff is [ENDOWMENT － sent\_amount + sent\_back\_amount]
+		- For player 2, the payofff is [sent\_amount * MULTIPLIER － sent\_back\_amount]
 - Solution Concept
+![Trust game](https://github.com/YiZhiYuanYuan-qyy/csecon206-HW1/blob/main/model/trust_game.png)
 - Evaluations: e.g. efficiency and fairness
-`$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ ` 
+
 ### Code
 - Game Environment
 - Strategic plays
