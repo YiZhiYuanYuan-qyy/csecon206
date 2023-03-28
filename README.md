@@ -33,9 +33,13 @@ Note: please insert the screenshot of the answers to your research question by C
 	3. Payoffs:
 		- For player 1, the payoff is [ENDOWMENT － sent\_amount + sent\_back\_amount]
 		- For player 2, the payofff is [sent\_amount * MULTIPLIER － sent\_back\_amount]
-- Solution Concept
-![Trust game](https://github.com/YiZhiYuanYuan-qyy/csecon206-HW1/blob/main/model/trust_game.png)
-- Evaluations: e.g. efficiency and fairness
+- Solution Concept  
+	 ![Trust game](https://github.com/YiZhiYuanYuan-qyy/csecon206-HW1/blob/main/model/trust_game.png)  
+	 In the figure above, the strategies are shown as tree. Assume the endowment is 5 and multiplier is 10. If player 1 doesn't Engage, it will gain 5 directly; if player 1 Engage, player 2 will choose to Defect or to Cooperate. If player 2 Defect player 1, it will gain 5 multiple 10, which is 50; if player 2 choose to Cooperate with player 1, it will give some back to player 1, which means the payoff of Cooperate is definitely less than that of Defect. I just write the (25, 25) to present this situation.   
+	 Backward induction checks the player 2 first. For player 2, 50 > 25, thus it will choose to Defect. For player 1, it knows that player 2 will choose Defect, then the payoff is 0 for it. However, if player 1 choose to Exit, then it will get 5, which is larger than 0.  
+	 The best strategies based on backward induction are drawn in the tree. The best strategy for player 1 (blue) is to Exit, while the best strategy for player 2 (purple) is to Defect.
+- Evaluations: e.g. efficiency and fairness 
+ 	
 
 ### Code
 - Game Environment
