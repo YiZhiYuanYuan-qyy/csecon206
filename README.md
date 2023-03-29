@@ -79,8 +79,147 @@ There are a lot of situations that can happen, depending on the risk appetite of
 
 
 - oTree Experimental Code   
-```
-#!https://github.com/YiZhiYuanYuan-qyy/csecon206-HW1/blob/main/code/Trust.otreezip
+
+
+``` python
+<!--Constants-->
+PLAYERS_PER_GROUP = 2
+NUM_ROUNDS = 5
+ENDOWMENT = cu(10)
+MULTIPLIER = 100
+
+<!--Group-->
+sent_amount = models.CurrencyField(label="Please enter an amount from 0 to 10", min=0, max=C.ENDOWMENT)
+sent_back_amount = models.CurrencyField(min=0)
+def sent_back_amount_max(group):
+	return group.sent_amount * C.MULTIPLIER
+def set_payoffs(group):
+	p1 = group.get_player_by_id(1)
+	p2 = group.get_player_by_id(2)
+	p1.payoff = C.ENDOWMENT - group.sent_amount + group.sent_back_amount
+	p2.payoff = group.sent_amount * C.MULTIPLIER - group.sent_back_amount
+
+
+<!--Player-->
+Name = models.StringField(initial="Insert your name")
+net_id = models.StringField(initial="Insert your net ID")
+contributed = models.BooleanField()
+Gender = models.StringField(choices=[["Female","Female"],["Male","Male"]
+,["Other recognitions","Other recognitions"]])
+Confidence = models.StringField(initial="Do you usually trust people easily？", choices=[["Most
+ easily","Most easily"],["A little bit easily","A little bit easily"],["Rationale","Rationale"],
+ ["Not very easily","Not very easily"],["Never trust others","Never trust others"]])
+
+<!--Introduction-->
+def is_displayed(player):
+	return player.round_number == 1
+
+##HTML
+{{ include C.INSTRUCTIONS_TEMPLATE }}
+{{formfields}}
+{{ next_button }}
+
+<!--Send-->
+def is_displayed(player):
+	return player.id_in_group == 1
+
+##HTML
+<p>
+You are Participant A. Now you have {{C.ENDOWMENT}}. How much will you send to participant B?
+</p>
+
+{{ formfields }}
+<p>
+{{ next_button }}
+</p>
+
+{{ include C.INSTRUCTIONS_TEMPLATE }}
+
+<!--SendBackWaitPage-->
+Please waiting for the others to complete the game!
+
+<!--SendBack-->
+def is_displayed(player):
+	return player.id_in_group == 2
+def vars_for_template(player):
+	group = player.group
+	tripled_amount = group.sent_amount * C.MULTIPLIER
+	return dict(tripled_amount=tripled_amount)
+	
+##HTML
+<p>
+    You are Participant B.
+    Participant A sent you {{ group.sent_amount }} and you received {{ tripled_amount }}.
+    Now you have {{ tripled_amount }}.
+    How much will you send to participant A?
+</p>
+
+{{ formfields }}
+<p>{{ next_button }}</p>
+{{ include C.INSTRUCTIONS_TEMPLATE }}
+	
+<!--ResultsWaitPage-->	
+Please waiting for the others to complete the game!
+
+<!--Results-->
+def vars_for_template(player):
+	group = player.group
+	ap = []
+	C.NUM_ROUNDS
+	for i in range(len(player.in_all_rounds())):
+	    ap.append(player.in_all_rounds()[i].payoff)
+	total_payoff = sum(ap)
+	return dict(tripled_amount=group.sent_amount * C.MULTIPLIER,
+	           all_payoff = ap,
+	           total_payoff = total_payoff)
+
+##HTML
+{{ if player.id_in_group == 1 }}
+    <p>
+        You chose to send participant B {{ group.sent_amount }}.
+        Participant B returned {{ group.sent_back_amount }}.
+    </p>
+    <p>
+        You were initially endowed with {{ C.ENDOWMENT }},
+        chose to send {{ group.sent_amount }},
+        received {{ group.sent_back_amount }}
+        thus you now have:
+        {{ C.ENDOWMENT }}-{{ group.sent_amount }}+{{ group.sent_back_amount }}=<strong>{{ player.payoff }}</strong>
+    </p>
+    <ul>
+    {% for payoff in all_payoff %}
+        <li>The {{ forloop.counter }} round payoff is {{ payoff }}.</li>
+    {% endfor %}
+    </ul>
+    {% if player.round_number == C.NUM_ROUNDS %}
+        <p>Congratulations! You finish the game! Your total payoff during the five rounds game is {{total_payoff}}.</p>
+    {% endif %}
+{{ else }}
+    <p>
+        Participant A sent you {{ group.sent_amount }}.
+        They were multipled by 100 so you received {{ tripled_amount }}.
+        You chose to return {{ group.sent_back_amount }}.
+    </p>
+    <p>
+        You received {{ tripled_amount }},
+        chose to return {{ group.sent_back_amount }}
+        thus you now have:
+        ({{ tripled_amount }})-({{ group.sent_back_amount }})=<strong>{{ player.payoff }}</strong>
+    </p>
+    <ul>
+    {% for payoff in all_payoff %}
+        <li>The {{ forloop.counter }} round payoff is {{ payoff }}.</li>
+    {% endfor %}
+    </ul>.
+    {% if player.round_number == C.NUM_ROUNDS %}
+        <p>Congratulations! You finish the game! Your total payoff during the five rounds game is {{total_payoff}}.</p>
+    {% endif %}
+    
+{{ endif }}
+
+<p>{{ next_button }}</p>
+
+{{ include C.INSTRUCTIONS_TEMPLATE }}
 ```
 
 
