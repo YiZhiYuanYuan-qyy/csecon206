@@ -51,8 +51,8 @@ Note: please insert the screenshot of the answers to your research question by C
 	2.  I change the endowment from 100 to 10
 	3. I change the multiplier from 3 to 100
 
-> | Constant | My setting |Original Value|
-| :-----| ----: |----: |
+ | Constant | My setting |Original Value|
+| -----| ---- |----: |
 | NUM_ROUNDS | 5 | 1 |
 | ENDOWMENT | 10 | 100 |
 | MULTIPLIER | 100 | 3 |
