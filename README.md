@@ -1,4 +1,4 @@
-# # Title Problem Set 1
+# # Problem Set 1
 ## Project information
 - **Author**: Yiyuan Qin, Data Science, 2023, Duke Kunshan University
 - **Instructor**: Prof. Luyao Zhang, Duke Kunshan University
