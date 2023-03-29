@@ -222,6 +222,7 @@ def vars_for_template(player):
 {{ include C.INSTRUCTIONS_TEMPLATE }}
 ```
 
+In this code, I add payoff in each round at the bottom of the windows to make sure that each player knows what the gain is, which will help them to make a decision next round based on the other's behavior.
 
 ### Spotlight
 - Posters
