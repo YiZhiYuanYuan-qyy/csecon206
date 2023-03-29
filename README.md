@@ -2,7 +2,7 @@
 ## Project information
 - **Author**: Yiyuan Qin, Data Science, 2023, Duke Kunshan University
 - **Instructor**: Prof. Luyao Zhang, Duke Kunshan University
-- **Disclaimer**: Submissions to the Problem Set No. or Final Project for [COMPSCI/ECON 206 Computational Microeconomics, 2023 Spring (Seven Week - Second)](https://ce.pubpub.org/) instructed by Prof. Luyao Zhang at Duke Kunshan University.
+- **Disclaimer**: Submissions to the Problem Set No.1 for [COMPSCI/ECON 206 Computational Microeconomics, 2023 Spring (Seven Week - Second)](https://ce.pubpub.org/) instructed by Prof. Luyao Zhang at Duke Kunshan University.
 - **Acknowledgments**: [How to Acknowledge?](https://www.scribbr.co.uk/thesis-dissertation/acknowledgements/)
 [notes: please include all professors, students, and staff who have contributed to your completetion of the project.]
 - **Project Summary**: 
@@ -51,11 +51,11 @@ Note: please insert the screenshot of the answers to your research question by C
 	2.  I change the endowment from 100 to 10
 	3. I change the multiplier from 3 to 100
 
- | Constant | My setting |Original Value|
-| -----| ---- |----: |
-| NUM_ROUNDS | 5 | 1 |
-| ENDOWMENT | 10 | 100 |
-| MULTIPLIER | 100 | 3 |
+ | Constant | Original Value |My setting|
+| :-----:| :----: |:----: |
+| NUM_ROUNDS | 1 | 5 |
+| ENDOWMENT | 100 | 10 |
+| MULTIPLIER | 3 | 100 |
 
 Reasons: the one-shot game is easy to guess because the player doesn't have to think about the relationship at the end of the round. This is similar to going to some tourist attractions and finding that the products sold are very expensive because most customers will not visit a tourist attraction many times in a short time. The transaction between the merchant and the customer is one-time, and since it is one-time, it can only consider the interests of the moment. Thus, I design the multiple rounds game to see the cooperative behavior in the game. In the first game, whether two players will choose to Engage and Cooperate because there will be a second and more cooperation, which will bring them more benefit if they choose Engage and Cooperate, respectively. 
 
@@ -63,8 +63,25 @@ Also, I reduced the original endowment and increased the multiplier. This is bec
 
 
 - Strategic plays
-- Equilibruim Evaluations: e.g., belief, strategy, and payoffs
-- oTree Experimental Code 
+- Equilibrium Evaluations: e.g., belief, strategy, and payoffs  
+ 
+This five-round game is a centipede game (Rosenthal, 1981). It just repeats the game above five times, and for each time, the best choices are the same: Exit and Defect. This is also the Nash equilibrium for the game. However, in the real game, people are not rational and want to take certain risks to bet on the more significant payoff. 
+
+Player 1 knows that they will play more rounds, it may think, "I only have 10 now, but if I give 10 to player 2, it will get 1000! I have already given my sincerity. Also, if player 2 wants more payoff, which means player 2 definitely wants to play more rounds! So, player 2 will give me a payoff to make sure I will Engage in the game in round 2. On the other hand, if player 2 Defect in the first round, I only lose 10, but if I bet successfully, I will get at least more than 10 (because if player 2 wants to make sure I will play more rounds, it will give me more than 10 to make me satisfied)."
+
+Player 2 gets some money from player 1, and the money is multiplied by 100. It might think, "Player 1 trusts me or, in this round and the next few rounds, because it wants to cooperate with me to gain more based on the multiplier. If player 1 has this idea, I can share some benefits to keep going on playing this game, and in each round, I will gain. Then I will choose Cooperate!"
+
+These are probably the thoughts of both players at the beginning of the game, as I reduce the principal and increase the leverage. Therefore, in the first round, player 1 will most likely want to gamble, while player 2 will feel player 1's sincerity and choose to cooperate. 
+
+But the question arises, will the two players really cooperate until the last round?
+
+There are a lot of situations that can happen, depending on the risk appetite of the two players and what counts as winning in their minds. For some people, maximizing their own payoff may be the best choice, while for others, the payoff of the game may be as long as their payoff is greater than the payoff of the other party. 
+
+
+- oTree Experimental Code   
+```
+#!https://github.com/YiZhiYuanYuan-qyy/csecon206-HW1/blob/main/code/Trust.otreezip
+```
 
 
 ### Spotlight
@@ -85,7 +102,9 @@ Also, I reduced the original endowment and increased the multiplier. This is bec
 
 ### References
 
-Berg, Joyce, John Dickhaut, and Kevin McCabe. 1995. “Trust, Reciprocity, and Social History.” Games and Economic Behavior 10 (1): 122–42. doi:10.1006/game.1995.1027. 
+[Berg, Joyce, John Dickhaut, and Kevin McCabe. 1995. “Trust, Reciprocity, and Social History.” Games and Economic Behavior 10 (1): 122–42. doi:10.1006/game.1995.1027] (https://www.sciencedirect.com/science/article/abs/pii/S0899825685710275). 
+
+[Rosenthal, Robert W. 1981. “Games of Perfect Information, Predatory Pricing and the Chain-Store Paradox.” Journal of Economic Theory 25 (1): 92–100. doi:10.1016/0022-0531(81)90018-1](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a7552bd3302f6dee7c0b74dea6fc486f794db0b8). 
 
 ```
 @article{berg1995trust,
@@ -97,6 +116,16 @@ Berg, Joyce, John Dickhaut, and Kevin McCabe. 1995. “Trust, Reciprocity, and S
   pages={122--142},
   year={1995},
   publisher={Elsevier}
+}
+@article{rosenthal1981games,
+  title={Games of perfect information, predatory pricing and the chain-store paradox},
+  author={Rosenthal, Robert W},
+  journal={Journal of Economic theory},
+  volume={25},
+  number={1},
+  pages={92--100},
+  year={1981},
+  publisher={Citeseer}
 }
 ```
 
