@@ -223,7 +223,7 @@ def vars_for_template(player):
 ```
 The interface of the beginning is shown below.   
 
-![begin interface](https://github.com/YiZhiYuanYuan-qyy/csecon206-HW1/blob/main/code/begin.png)  
+![begin interface](https://github.com/YiZhiYuanYuan-qyy/csecon206-HW1/blob/main/code/begin.png){:height="50%" width="50%"}
 In this code, I add the payoff received in each round at the bottom of the windows to make sure that each player knows what the gain is, which will help them to make a decision next round based on the other's behavior. In the end, I also give a clue to show the game is over. 
 ![result](https://github.com/YiZhiYuanYuan-qyy/csecon206-HW1/blob/main/code/result.png)
 
