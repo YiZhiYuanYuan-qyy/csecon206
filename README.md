@@ -251,11 +251,11 @@ In this case, the behavioral foundation for consumers to give different prices t
 
 ### References
 
-[Berg, Joyce, John Dickhaut, and Kevin McCabe. 1995. “Trust, Reciprocity, and Social History.” Games and Economic Behavior 10 (1): 122–42. doi:10.1006/game.1995.1027] (https://www.sciencedirect.com/science/article/abs/pii/S0899825685710275). 
+[Berg, Joyce, John Dickhaut, and Kevin McCabe. 1995. “Trust, Reciprocity, and Social History.” Games and Economic Behavior 10 (1): 122–42. doi:10.1006/game.1995.1027](https://www.sciencedirect.com/science/article/abs/pii/S0899825685710275). 
 
 [Rosenthal, Robert W. 1981. “Games of Perfect Information, Predatory Pricing and the Chain-Store Paradox.” Journal of Economic Theory 25 (1): 92–100. doi:10.1016/0022-0531(81)90018-1](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a7552bd3302f6dee7c0b74dea6fc486f794db0b8). 
 
-[Sokolova, Tatiana, Aradhna Krishna, and Tim Döring. 2023. “Paper Meets Plastic: The Perceived Environmental Friendliness of Product Packaging.” Journal of Consumer Research. doi:10.1093/jcr/ucad008.] (https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucad008/7008764?searchresult=1)
+[Sokolova, Tatiana, Aradhna Krishna, and Tim Döring. 2023. “Paper Meets Plastic: The Perceived Environmental Friendliness of Product Packaging.” Journal of Consumer Research. doi:10.1093/jcr/ucad008.](https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucad008/7008764?searchresult=1).
 
 ```
 @article{berg1995trust,
