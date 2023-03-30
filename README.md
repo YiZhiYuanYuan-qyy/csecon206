@@ -224,15 +224,22 @@ def vars_for_template(player):
 The interface of the beginning is shown below.   
 <img src = "https://github.com/YiZhiYuanYuan-qyy/csecon206-HW1/blob/main/code/begin.png" width = 50%, height=50%><br/>
 In this code, I also add the payoff received in each round at the bottom of the windows to make sure that each player knows what the gain is, which will help them to make a decision next round based on the other's behavior. In the end, I also give a clue to show the game is over.  
-<img src = "https://github.com/YiZhiYuanYuan-qyy/csecon206-HW1/blob/main/code/result.png" width = 50%, height=70%><br/>
+<img src = "https://github.com/YiZhiYuanYuan-qyy/csecon206-HW1/blob/main/code/result.png" width = 70%, height=70%><br/>
 
 ### Spotlight
-- Posters
-- Figures
-- Slides
-- Presentations
-- Review articles
-- Media appearance
+- Behavioral experimental paper  
+I looked the paper ["Paper Meets Plastic: The Perceived Environmental Friendliness of Product Packaging"](https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucad008/7008764?searchresult=1) (Sokolova et al., 2023) 
+	- 1. What research question does the behavioral experimental research intended to address?   
+The paper research focus that whether the PEF bias is a relevant and important factor to consider in consumer decision-making. (PEF bias refers to a bias in consumer perceptions of environmental friendliness that favors products with packaging that includes paper in addition to plastic, even when the environmental impact of the paper is not necessarily better than that of the plastic.).
+	- 2. How behavior in the experiments differ from backward induction?  
+Use Study 3 in the paper as an example, in which 802 participants were randomly assigned to a granola bar. There are two kinds of granola bars, one is plastic wrapped, the other is plastic with a layer of paper inside, and then the consumer is asked to give the amount of money he is willing to pay for the granola bar. It turns out that participants were willing to pay more for granola bars with paper packaging (because they were willing to pay for the environment, which, although it may not be environmentally friendly, consumers perceive paper as environmentally friendly, but plastic as not). Backward induction is a method used to solve sequential games, where players make decisions in a specific order, with each player knowing the decisions made by the players who went before them. In these experiments, participants were making a single decision in isolation, without knowledge of what other participants had done or would do. Additionally，backward induction assumes that players are rational, self-interested, and capable of considering all possible outcomes and probabilities when making decisions. However, in these experiments, participants may not always behave in a way that aligns with these assumptions. They are influenced by cognitive biases because in fact the two granola bars are identical, except for the packaging. An environmentally friendly person might want to pay a higher price for a paper-wrapped granola bar, whereas a person who doesn't care about the environment, or who has no biases, would rationally choose the almost same price for the two products.  
+	- 3.  What is the behavioral (e.g., psychological, social) foundation that underpinning the observed behavior?  
+In this case, the behavioral foundation for consumers to give different prices to the same products in different packages is PEF bias, which refers to the tendency for consumers to view environmentally friendly products or packaging more favorably than their less eco-friendly counterparts.  This bias can lead to consumers being more willing to pay for eco-friendly products, even if the actual environmental impact of the product or packaging is unclear.
+
+- Reinforcement learning paper
+
+	- What is the game environment and the learning algorithm? 
+	- How are the strategies from the reinforcement learning agents inspires you on trust building among humans? 
 
 ### More about the Author
 - headshot
@@ -247,6 +254,8 @@ In this code, I also add the payoff received in each round at the bottom of the 
 [Berg, Joyce, John Dickhaut, and Kevin McCabe. 1995. “Trust, Reciprocity, and Social History.” Games and Economic Behavior 10 (1): 122–42. doi:10.1006/game.1995.1027] (https://www.sciencedirect.com/science/article/abs/pii/S0899825685710275). 
 
 [Rosenthal, Robert W. 1981. “Games of Perfect Information, Predatory Pricing and the Chain-Store Paradox.” Journal of Economic Theory 25 (1): 92–100. doi:10.1016/0022-0531(81)90018-1](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a7552bd3302f6dee7c0b74dea6fc486f794db0b8). 
+
+[Sokolova, Tatiana, Aradhna Krishna, and Tim Döring. 2023. “Paper Meets Plastic: The Perceived Environmental Friendliness of Product Packaging.” Journal of Consumer Research. doi:10.1093/jcr/ucad008.] (https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucad008/7008764?searchresult=1)
 
 ```
 @article{berg1995trust,
@@ -268,6 +277,14 @@ In this code, I also add the payoff received in each round at the bottom of the 
   pages={92--100},
   year={1981},
   publisher={Citeseer}
+}
+@article{sokolova2023paper,
+  title={Paper Meets Plastic: The Perceived Environmental Friendliness of Product Packaging},
+  author={Sokolova, Tatiana and Krishna, Aradhna and D{\"o}ring, Tim},
+  journal={Journal of Consumer Research},
+  pages={ucad008},
+  year={2023},
+  publisher={Oxford University Press}
 }
 ```
 
