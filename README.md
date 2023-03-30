@@ -1,4 +1,4 @@
-# # Title Problem Set 1
+# #Problem Set 1
 ## Project information
 - **Author**: Yiyuan Qin, Data Science, 2023, Duke Kunshan University
 - **Instructor**: Prof. Luyao Zhang, Duke Kunshan University
@@ -224,7 +224,7 @@ def vars_for_template(player):
 The interface of the beginning is shown below.   
 <img src = "https://github.com/YiZhiYuanYuan-qyy/csecon206-HW1/blob/main/code/begin.png" width = 50%, height=50%><br/>
 In this code, I also add the payoff received in each round at the bottom of the windows to make sure that each player knows what the gain is, which will help them to make a decision next round based on the other's behavior. In the end, I also give a clue to show the game is over.  
-<img src = "https://github.com/YiZhiYuanYuan-qyy/csecon206-HW1/blob/main/code/result.png" width = 50%, height=50%><br/>
+<img src = "https://github.com/YiZhiYuanYuan-qyy/csecon206-HW1/blob/main/code/result.png" width = 50%, height=70%><br/>
 
 ### Spotlight
 - Posters
