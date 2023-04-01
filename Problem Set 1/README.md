@@ -5,13 +5,6 @@
 - **Disclaimer**: Submissions to the Problem Set No.1 for [COMPSCI/ECON 206 Computational Microeconomics, 2023 Spring (Seven Week - Second)](https://ce.pubpub.org/) instructed by Prof. Luyao Zhang at Duke Kunshan University.
 - **Acknowledgments**: [How to Acknowledge?](https://www.scribbr.co.uk/thesis-dissertation/acknowledgements/)
 [notes: please include all professors, students, and staff who have contributed to your completetion of the project.]
-- **Project Summary**: 
-  - This is the first homework for ECON 206
-  - [Research Questions]
-  - [Application Scenario]
-  - [Methodology]
-  - [Results]
-  - [Intellectual Merits and Practical impacts of your project.]
   
    
 Note: please insert the screenshot of the answers to your research question by ChatGPT. The methodology that you use to address the research questions must be more innovative than both the current literature and ChatGPT. 
@@ -41,9 +34,9 @@ Note: please insert the screenshot of the answers to your research question by C
 	 
 	 The best strategies based on backward induction are drawn in the tree. The best strategy for player 1 (blue) is to Exit, while the best strategy for player 2 (purple) is to Defect.
 - Evaluations: e.g., efficiency and fairness   
- 	Backward induction is efficient because it is easy to illustrate and understand both by the tree and by the concept. There is no need to build a complex model to find the best strategies. We just need to compare the several strategies and find the maximum. That is, backward induction can identify the efficient outcome of a game, which maximizes the total payoffs of all players. It considers the entire game and all possible strategies of the players, which allows it to find the strategy that maximizes the overall outcome.   
+ 	Backward induction is efficient and fair in a completely ideal situation because it is easy to illustrate and understand both by the tree and by the concept. There is no need to build a complex model to find the best strategies. We just need to compare the several strategies and find the maximum. That is, backward induction can identify the efficient outcome of a game, which maximizes the total payoffs of all players. It considers the entire game and all possible strategies of the players, which allows it to find the strategy that maximizes the overall outcome.   
  	
- 	However, it might not fairness in some cases. Backward induction assumes that all players are rational and have complete information about the game. In reality, players may have limited information, and their decisions may be influenced by factors such as emotions or social norms. Therefore, the outcome identified by backward induction may not always be achievable or desirable in practice. Also, for some games that might have more than one equilibrium, backward induction can only find one outcome. It cannot give all the possible results of the game. 
+ 	However, it might not be fair and efficient in some cases. Backward induction assumes that all players are rational and have complete information about the game. In reality, players may have limited information, and their decisions may be influenced by factors such as emotions or social norms. Therefore, the outcome identified by backward induction may not always be achievable or desirable in practice. Also, for some games that might have more than one equilibrium, backward induction can only find one outcome. It cannot give all the possible results of the game. 
 
 ### Code
 - Game Environment   
@@ -228,7 +221,7 @@ In this code, I also add the payoff received in each round at the bottom of the 
 
 ### Spotlight
 - Behavioral experimental paper  
-I looked the paper [A study of dynamic information display and decision-making in abstract trust games (Schaffer et al., 2018)](https://www.sciencedirect.com/science/article/pii/S1071581918300028) in the International Journal of Human-Computer Studies, which impact factor is 4.866.
+I looked at the paper [A study of dynamic information display and decision-making in abstract trust games (Schaffer et al., 2018)](https://www.sciencedirect.com/science/article/pii/S1071581918300028) in the International Journal of Human-Computer Studies, which impact factor is 4.866.
 	- 1) What research question does the behavioral experimental research intended to address?   
 	The research intended to address several research questions, including 
 	
@@ -241,28 +234,39 @@ I looked the paper [A study of dynamic information display and decision-making i
 In this experiment, players were more likely to cooperate in the same trust game as UI was upgraded. In addition, trust in co-diners was impacted by co-diner forgiveness and betrayal parameters (Forgiveness and betrayal refer to the degree to which the co-diners would forgive defection and punish cooperation, respectively)[(Schaffer et al., 2018)](https://www.sciencedirect.com/science/article/pii/S1071581918300028)), Trust in co-diners was impacted by co-diner forgiveness and betrayal parameters, and participants who cooperated more reported higher trust in co-diners. Path analysis showed that forgiveness and betrayal had an effect on cooperation rate, and performance was affected by forgiveness, betrayal, situation awareness,  and altruism.  As a result of backward induction, rational players chose not to cooperate. In this experiment, the player makes different decisions depending on the situation.
 	
 	- 3)  What is the behavioral (e.g., psychological, social) foundation that underpinning the observed behavior?  
-	First, the observed behavior is likely influenced by trust propensity and risk-taking tendencies.  If a player is consistently betrayed, he will tend not to cooperate later in the game and vice versa. This means that players' decisions are influenced by similar experiences in the past rather than completely separate games, although trust games are not repeated games. This is because past experience can affect forgiveness and betrayal parameters, which is also mentioned in the second question, and the player is not entirely rational. Second, player decisions are influenced by the UI. This is because different UI may provide different information,
+	First, the observed behavior is likely influenced by trust propensity and risk-taking tendencies.  If a player is consistently betrayed, he will tend not to cooperate later in the game and vice versa. This means that players' decisions are influenced by similar experiences in the past rather than completely separate games, although trust games are not repeated games. This is because past experience can affect forgiveness and betrayal parameters, which is also mentioned in the second question, and the player is not entirely rational. Second, the UI design plays a critical role in affecting these factors and ultimately shaping behavior. For example, the Level 1 UI may lead to lower situational awareness and less ability to keep track of co-diner behavior, potentially reducing trust and reciprocity.
+On the other hand, the Level 3 UI with the projection panel may enhance the participant's ability to make long-term decisions and consider the impact of their actions on the group as a whole, potentially increasing cooperation and group outcomes. Additionally, the tendency to retaliate against defection and the reluctance to exploit forgiving co-diners suggest that participants may be motivated by social norms and fairness considerations.
+	
+	<img src = "https://github.com/YiZhiYuanYuan-qyy/csecon206/blob/main/spotlight/3typesUI.png" width = 50%, height=50%><br/> 
+	[(Schaffer et al., 2018)](https://www.sciencedirect.com/science/article/pii/S1071581918300028)
 	
 
 - Reinforcement learning paper
-  
-	- 1) What is the game environment and the learning algorithm? 
+  I found the paper [Dynamic trust game model between venture capitalists and entrepreneurs based on reinforcement learning theory ((Haiyan, 2018))](https://link.springer.com/article/10.1007/s10586-017-1666-x)
+	- 1) What is the game environment and the learning algorithm?   
+	The game environment in this study is a multi-stage game between venture capitalists (VCs) and entrepreneurs. The game is designed to simulate the dynamic nature of trust between VCs and entrepreneurs.  The game environment consists of two players, a VC and an entrepreneur, who make decisions and take actions at different stages of the game. The game is played over several rounds, and the players can accumulate rewards or penalties in each round based on their decisions and actions. The game environment is characterized by uncertainty, as both players have limited information about each other and the market conditions. The game allows for dynamic changes in the trust levels of the players over time. The VC can invest in the entrepreneurs this round but quit investment next round; then the entrepreneurs may fail because they do not have no enough money. The investment to the entrepreneur is risky, but if the entrepreneur succeeds, it will return VC multiple times the benefit. For both parties, they will take care of whether the other side betrays or not. 
+		The algorithm used is Q-learning [(Watkins & Dayan)](https://link.springer.com/content/pdf/10.1007/BF00992698.pdf). The agent selects the optimal strategy based on the maximum value of Q obtained from the current state, and the value of Q includes the instantaneous gain and expected future value
+		
+	- 2) How are the strategies from the reinforcement learning agents inspires you on trust building among humans?   
+	This reinforcement learning article is actually very similar to the behavioral economics article above. Part of the results of the first article said that whether to trust others is related to previous experience, if a person is often betrayed and cheated, then he will be less likely to trust others; People who consistently work well with others are more likely to trust others than those in the former group.  
+	While in the reinforcement paper, reinforcement learning agents continuously adjust their actions based on the rewarding signals they receive from their environment, and this allows them to learn and adapt to changing circumstances. Similarly, humans can adjust their behaviors based on feedback from their social interactions to build trust with others. For example, if a person receives positive feedback from their friend for being trustworthy, they are more likely to continue behaving in a trustworthy manner. On the other hand, if they receive negative feedback for being untrustworthy, they may adjust their behavior to become more trustworthy in the future. By constantly adapting our behavior based on feedback, we can improve our ability to build and maintain trust in our social relationships. 
+The two articles look different, but in fact, they are both feedback and adjustment made by human beings after receiving external information.   
+This means that when building a trusting relationship, try not to betray the other person and give positive feedback when the other person trusts you. Similarly, if the other person betrays you first, there is a strategy to be worked out. This is very similar to the assumption made in the first article that interpersonal trust will change over time, so this article establishes a dynamic model.
 	
-	- 2) How are the strategies from the reinforcement learning agents inspires you on trust building among humans? 
 
 ### More about the Author
 - headshot
 - self-introduction
-- Final reflections 
-  - intellectual growth
-  - professional growth
-  - living a purposeful life
 
 ### References
 
 [Berg, Joyce, John Dickhaut, and Kevin McCabe. 1995. “Trust, Reciprocity, and Social History.” Games and Economic Behavior 10 (1): 122–42. doi:10.1006/game.1995.1027](https://www.sciencedirect.com/science/article/abs/pii/S0899825685710275). 
 
 [Schaffer, James, John O’Donovan, Laura Marusich, Michael Yu, Cleotilde Gonzalez, and Tobias Höllerer. 2018. “A Study of Dynamic Information Display and Decision-Making in Abstract Trust Games.” International Journal of Human-Computer Studies 113: 1–14. doi:10.1016/j.ijhcs.2018.01.002. ](https://www.sciencedirect.com/science/article/pii/S1071581918300028)
+
+[Haiyan, Li. 2018. “Dynamic Trust Game Model between Venture Capitalists and Entrepreneurs Based on Reinforcement Learning Theory.” Cluster Computing 22 (S3): 5893–5904. doi:10.1007/s10586-017-1666-x. ](https://link.springer.com/article/10.1007/s10586-017-1666-x)
+
+[Watkins, Christopher J. C. H., and Peter Dayan. 2023. “Q-Learning - Machine Learning.” SpringerLink. Kluwer Academic Publishers. Accessed April 1. https://link.springer.com/article/10.1007/BF00992698.](https://link.springer.com/content/pdf/10.1007/BF00992698.pdf)
 
 ```
 @article{berg1995trust,
@@ -284,6 +288,23 @@ In this experiment, players were more likely to cooperate in the same trust game
   year={2018},
   publisher={Elsevier}
 }
-
+@article{haiyan2019dynamic,
+  title={Dynamic trust game model between venture capitalists and entrepreneurs based on reinforcement learning theory},
+  author={Haiyan, Li},
+  journal={Cluster Computing},
+  volume={22},
+  pages={5893--5904},
+  year={2019},
+  publisher={Springer}
+}
+@article{watkins1992q,
+  title={Q-learning},
+  author={Watkins, Christopher JCH and Dayan, Peter},
+  journal={Machine learning},
+  volume={8},
+  pages={279--292},
+  year={1992},
+  publisher={Springer}
+}
 ```
 
