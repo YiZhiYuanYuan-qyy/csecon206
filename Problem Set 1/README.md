@@ -228,18 +228,27 @@ In this code, I also add the payoff received in each round at the bottom of the 
 
 ### Spotlight
 - Behavioral experimental paper  
-I looked the paper ["Paper Meets Plastic: The Perceived Environmental Friendliness of Product Packaging"](https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucad008/7008764?searchresult=1) (Sokolova et al., 2023) 
-	- 1. What research question does the behavioral experimental research intended to address?   
-The paper research focus that whether the PEF bias is a relevant and important factor to consider in consumer decision-making. (PEF bias refers to a bias in consumer perceptions of environmental friendliness that favors products with packaging that includes paper in addition to plastic, even when the environmental impact of the paper is not necessarily better than that of the plastic.).
-	- 2. How behavior in the experiments differ from backward induction?  
-Use Study 3 in the paper as an example, in which 802 participants were randomly assigned to a granola bar. There are two kinds of granola bars, one is plastic wrapped, the other is plastic with a layer of paper inside, and then the consumer is asked to give the amount of money he is willing to pay for the granola bar. It turns out that participants were willing to pay more for granola bars with paper packaging (because they were willing to pay for the environment, which, although it may not be environmentally friendly, consumers perceive paper as environmentally friendly, but plastic as not). Backward induction is a method used to solve sequential games, where players make decisions in a specific order, with each player knowing the decisions made by the players who went before them. In these experiments, participants were making a single decision in isolation, without knowledge of what other participants had done or would do. Additionally，backward induction assumes that players are rational, self-interested, and capable of considering all possible outcomes and probabilities when making decisions. However, in these experiments, participants may not always behave in a way that aligns with these assumptions. They are influenced by cognitive biases because in fact the two granola bars are identical, except for the packaging. An environmentally friendly person might want to pay a higher price for a paper-wrapped granola bar, whereas a person who doesn't care about the environment, or who has no biases, would rationally choose the almost same price for the two products.  
-	- 3.  What is the behavioral (e.g., psychological, social) foundation that underpinning the observed behavior?  
-In this case, the behavioral foundation for consumers to give different prices to the same products in different packages is PEF bias, which refers to the tendency for consumers to view environmentally friendly products or packaging more favorably than their less eco-friendly counterparts.  This bias can lead to consumers being more willing to pay for eco-friendly products, even if the actual environmental impact of the product or packaging is unclear.
+I looked the paper [A study of dynamic information display and decision-making in abstract trust games (Schaffer et al., 2018)](https://www.sciencedirect.com/science/article/pii/S1071581918300028) in the International Journal of Human-Computer Studies, which impact factor is 4.866.
+	- 1) What research question does the behavioral experimental research intended to address?   
+	The research intended to address several research questions, including 
+	
+- i. To what extent can a UI improve SA? How are SA and cooperation related?
+- ii. Can a UI be used to encourage or discourage human cooperative behavior?
+- iii. Does the effect of a UI on human cooperative behavior change with the propensity of co-actors to exploit?
+- iv. To what extent do co-actor behavior and UI support affect the performance of the individual decision-maker?
+
+	- 2) How behavior in the experiments differ from backward induction?  
+In this experiment, players were more likely to cooperate in the same trust game as UI was upgraded. In addition, trust in co-diners was impacted by co-diner forgiveness and betrayal parameters (Forgiveness and betrayal refer to the degree to which the co-diners would forgive defection and punish cooperation, respectively)[(Schaffer et al., 2018)](https://www.sciencedirect.com/science/article/pii/S1071581918300028)), Trust in co-diners was impacted by co-diner forgiveness and betrayal parameters, and participants who cooperated more reported higher trust in co-diners. Path analysis showed that forgiveness and betrayal had an effect on cooperation rate, and performance was affected by forgiveness, betrayal, situation awareness,  and altruism.  As a result of backward induction, rational players chose not to cooperate. In this experiment, the player makes different decisions depending on the situation.
+	
+	- 3)  What is the behavioral (e.g., psychological, social) foundation that underpinning the observed behavior?  
+	First, the observed behavior is likely influenced by trust propensity and risk-taking tendencies.  If a player is consistently betrayed, he will tend not to cooperate later in the game and vice versa. This means that players' decisions are influenced by similar experiences in the past rather than completely separate games, although trust games are not repeated games. This is because past experience can affect forgiveness and betrayal parameters, which is also mentioned in the second question, and the player is not entirely rational. Second, player decisions are influenced by the UI. This is because different UI may provide different information,
+	
 
 - Reinforcement learning paper
-
-	- What is the game environment and the learning algorithm? 
-	- How are the strategies from the reinforcement learning agents inspires you on trust building among humans? 
+  
+	- 1) What is the game environment and the learning algorithm? 
+	
+	- 2) How are the strategies from the reinforcement learning agents inspires you on trust building among humans? 
 
 ### More about the Author
 - headshot
@@ -253,9 +262,7 @@ In this case, the behavioral foundation for consumers to give different prices t
 
 [Berg, Joyce, John Dickhaut, and Kevin McCabe. 1995. “Trust, Reciprocity, and Social History.” Games and Economic Behavior 10 (1): 122–42. doi:10.1006/game.1995.1027](https://www.sciencedirect.com/science/article/abs/pii/S0899825685710275). 
 
-[Rosenthal, Robert W. 1981. “Games of Perfect Information, Predatory Pricing and the Chain-Store Paradox.” Journal of Economic Theory 25 (1): 92–100. doi:10.1016/0022-0531(81)90018-1](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a7552bd3302f6dee7c0b74dea6fc486f794db0b8). 
-
-[Sokolova, Tatiana, Aradhna Krishna, and Tim Döring. 2023. “Paper Meets Plastic: The Perceived Environmental Friendliness of Product Packaging.” Journal of Consumer Research. doi:10.1093/jcr/ucad008.](https://academic.oup.com/jcr/advance-article/doi/10.1093/jcr/ucad008/7008764?searchresult=1).
+[Schaffer, James, John O’Donovan, Laura Marusich, Michael Yu, Cleotilde Gonzalez, and Tobias Höllerer. 2018. “A Study of Dynamic Information Display and Decision-Making in Abstract Trust Games.” International Journal of Human-Computer Studies 113: 1–14. doi:10.1016/j.ijhcs.2018.01.002. ](https://www.sciencedirect.com/science/article/pii/S1071581918300028)
 
 ```
 @article{berg1995trust,
@@ -268,23 +275,15 @@ In this case, the behavioral foundation for consumers to give different prices t
   year={1995},
   publisher={Elsevier}
 }
-@article{rosenthal1981games,
-  title={Games of perfect information, predatory pricing and the chain-store paradox},
-  author={Rosenthal, Robert W},
-  journal={Journal of Economic theory},
-  volume={25},
-  number={1},
-  pages={92--100},
-  year={1981},
-  publisher={Citeseer}
+@article{schaffer2018study,
+  title={A study of dynamic information display and decision-making in abstract trust games},
+  author={Schaffer, James and O’Donovan, John and Marusich, Laura and Yu, Michael and Gonzalez, Cleotilde and H{\"o}llerer, Tobias},
+  journal={International Journal of Human-Computer Studies},
+  volume={113},
+  pages={1--14},
+  year={2018},
+  publisher={Elsevier}
 }
-@article{sokolova2023paper,
-  title={Paper Meets Plastic: The Perceived Environmental Friendliness of Product Packaging},
-  author={Sokolova, Tatiana and Krishna, Aradhna and D{\"o}ring, Tim},
-  journal={Journal of Consumer Research},
-  pages={ucad008},
-  year={2023},
-  publisher={Oxford University Press}
-}
+
 ```
 
