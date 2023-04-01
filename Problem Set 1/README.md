@@ -256,7 +256,7 @@ This means that when building a trusting relationship, try not to betray the oth
 
 ### More about the Author
 - headshot  
-	<img src = "https://github.com/YiZhiYuanYuan-qyy/csecon206/blob/main/spotlight/headshot.jpg" width = 20%, height=20%><br/> 
+	<img src = "https://github.com/YiZhiYuanYuan-qyy/csecon206/blob/main/spotlight/headshot.jpg" width = 10%, height=10%><br/> 
 - DKU'23 Data Science
 
 
