@@ -22,11 +22,12 @@ Note: please insert the screenshot of the answers to your research question by C
 	1. Players:  
 	There are 2 players participating in the game [player 1 and player 2]. 
 	2. Strategies:  
-	The strategies can be given the following names: in the first stage player 1 chooses either to Exit or to Engage. If player 1 chooses Engage, then player 2 in the second stage chooses between Cooperate and Defect.
+	This is a centipede game for 5 rounds. For each round, the strategies can be given the following: player 1 chooses 0 to 10 units to give player 2, and player 2 will give the total amount, which is equal to the units from player 1 multiplied by 100. Then it will choose how much to pay back the player 1. 
 	3. Payoffs:
-		- For player 1, the payoff is [ENDOWMENT － sent\_amount + sent\_back\_amount]
-		- For player 2, the payoff is [sent\_amount * MULTIPLIER － sent\_back\_amount]
+		- For player 1, the payoff is the sum of the five-round: [ENDOWMENT － sent\_amount + sent\_back\_amount]
+		- For player 2, the payoff is the sum of the five-round: [sent\_amount * 100 － sent\_back\_amount]
 - Solution Concept  
+- (change this part)
 	 ![Trust game](https://github.com/YiZhiYuanYuan-qyy/csecon206-HW1/blob/main/model/trust_game.png)  
 	 In the figure above, the strategies are shown as a tree. Assume the endowment is 5 and the multiplier is 10. If player 1 doesn't Engage, it will gain 5 directly; if player 1 Engage, player 2 will choose to Defect or to Cooperate. If player 2 Defect player 1, it will gain 5 multiple 10, which is 50; if player 2 chooses to Cooperate with player 1, it will give some back to player 1, which means the payoff of Cooperate is definitely less than that of Defect. I just write the (25, 25) to present this situation.   
 	 
