@@ -20,20 +20,20 @@ Note: please insert the screenshot of the answers to your research question by C
 ### Model
 - Game Environment (Berg et al., 1995)
 	1. Players:  
-	There are 2 players participating in the game [player 1 and player 2]. 
+	There are two players participating in the game [Player 1 and Player 2]. 
 	2. Strategies:  
-	This is a centipede game for 5 rounds. For each round, the strategies can be given the following: player 1 chooses 0 to 10 units to give player 2, and player 2 will give the total amount, which is equal to the units from player 1 multiplied by 100. Then it will choose how much to pay back the player 1. 
+	This is a centipede game for five rounds. For each round, the strategies can be given the following: player 1 chooses 0 to 10 units to give Player 2, and Player 2 will give the total amount, which is equal to the units from Player 1 multiplied by 100. Then it will choose how much to pay back the player 1.   
+	To make it more specific, Player 1 strategies are [not give Player 2 anything] and [give Player 2 A units, where A is from 1 to 10] Player 2 strategies are [not give back to Player 1] and [return Player 1 B units, where B is from 1 to 100*A]
+	
 	3. Payoffs:
-		- For player 1, the payoff is the sum of the five-round: [ENDOWMENT － sent\_amount + sent\_back\_amount]
-		- For player 2, the payoff is the sum of the five-round: [sent\_amount * 100 － sent\_back\_amount]
+		- For player 1, the payoff is the sum of the five-round, and in each round (P1i): [P1i = ENDOWMENT － sent\_amount + sent\_back\_amount].   
+		The final payoff is P1 = P11 + P12 + P13 + P14 + P15
+		- For player 2, the payoff is the sum of the five-round, and in each round (P2i): [P2i = sent\_amount * 100 － sent\_back\_amount].   
+		The final payoff is P2 = P21 + P22 + P23 + P24 + P25
 - Solution Concept  
-- (change this part)
-	 ![Trust game](https://github.com/YiZhiYuanYuan-qyy/csecon206-HW1/blob/main/model/trust_game.png)  
-	 In the figure above, the strategies are shown as a tree. Assume the endowment is 5 and the multiplier is 10. If player 1 doesn't Engage, it will gain 5 directly; if player 1 Engage, player 2 will choose to Defect or to Cooperate. If player 2 Defect player 1, it will gain 5 multiple 10, which is 50; if player 2 chooses to Cooperate with player 1, it will give some back to player 1, which means the payoff of Cooperate is definitely less than that of Defect. I just write the (25, 25) to present this situation.   
+(change this part)
+	 ![Trust game](https://github.com/YiZhiYuanYuan-qyy/csecon206/blob/main/model/trust_game_tree.jpg)  
 	 
-	 Backward induction checks player 2 first. For player 2, 50 > 25, thus, it will choose to Defect. For player 1, it knows that player 2 will choose Defect, then the payoff is 0 for it. However, if player 1 chooses to Exit, then it will get 5, which is larger than 0.  
-	 
-	 The best strategies based on backward induction are drawn in the tree. The best strategy for player 1 (blue) is to Exit, while the best strategy for player 2 (purple) is to Defect.
 - Evaluations: e.g., efficiency and fairness   
  	Backward induction is efficient and fair in a completely ideal situation because it is easy to illustrate and understand both by the tree and by the concept. There is no need to build a complex model to find the best strategies. We just need to compare the several strategies and find the maximum. That is, backward induction can identify the efficient outcome of a game, which maximizes the total payoffs of all players. It considers the entire game and all possible strategies of the players, which allows it to find the strategy that maximizes the overall outcome.   
  	
