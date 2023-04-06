@@ -32,7 +32,7 @@ Note: please insert the screenshot of the answers to your research question by C
 		The final payoff is P2 = P21 + P22 + P23 + P24 + P25
 - Solution Concept  
 (change this part)
-	 ![Trust game](https://github.com/YiZhiYuanYuan-qyy/csecon206/blob/main/model/trust_game_tree.jpg)  
+	 ![Trust game](https://github.com/YiZhiYuanYuan-qyy/csecon206/blob/main/model/tree.jpg)  
 	 
 	 
 - Evaluations: e.g., efficiency and fairness   
