@@ -31,9 +31,10 @@ Note: please insert the screenshot of the answers to your research question by C
 		- For player 2, the payoff is the sum of the five-round, and in each round (P2i): [P2i = sent\_amount * 100 － sent\_back\_amount].   
 		The final payoff is P2 = P21 + P22 + P23 + P24 + P25
 - Solution Concept  
-(change this part)
-	 ![Trust game](https://github.com/YiZhiYuanYuan-qyy/csecon206/blob/main/model/tree.jpg)  
+	 ![Trust game](https://github.com/YiZhiYuanYuan-qyy/csecon206/blob/main/model/tree.jpg)
 	 
+	 The each subgame (each round) is the simplest trust game and they are repeated, so the Nash equillibrium for subgame is the Nash equillibrium for the whole game.   
+	 For P2 in a single round, 100A is definetely larger than 100A - B, where B is larger than 0, so P2 must choose the stragety [Sent back 0] to make sure it gets the maximum benefit. Then for P1, 10 is bigger than 10 - A for sure, where A is larger than 0, so P1 must select the stragety [Sent 0]. Thus, for rational players, they will choose to stop the game at the very beginning. The payoff in each round should be (10, 0), where P1i = 10, P2i = 0. The final payoff should be (50, 0). For Player 1, payoff is P11 + P12 + P13 + P14 + P15 = 50; for Player 2, payoff is P21 + P22 + P23 + P24 + P25 = 0. 	 
 	 
 - Evaluations: e.g., efficiency and fairness   
  	Backward induction is efficient and fair in a completely ideal situation because it is easy to illustrate and understand both by the tree and by the concept. There is no need to build a complex model to find the best strategies. We just need to compare the several strategies and find the maximum. That is, backward induction can identify the efficient outcome of a game, which maximizes the total payoffs of all players. It considers the entire game and all possible strategies of the players, which allows it to find the strategy that maximizes the overall outcome.   
@@ -58,6 +59,9 @@ Also, I reduced the original endowment and increased the multiplier. This is bec
 
 
 - Strategic plays
+In this case, I set the endowment very small and the multipler very big. The player 1 is most likely
+
+
 - Equilibrium Evaluations: e.g., belief, strategy, and payoffs  
  
 This five-round game is a centipede game (Rosenthal, 1981). It just repeats the game above five times, and for each time, the best choices are the same: Exit and Defect. This is also the Nash equilibrium for the game. However, in the real game, people are not rational and want to take certain risks to bet on the more significant payoff. 
