@@ -78,11 +78,11 @@ There are a lot of situations that can happen, depending on the risk appetite of
 In this case, I set the endowment very small and the multipler very big. The player 1 is most likely to take the risk that the Player 2 might not return any profit. Thus, the assumption is not like the Nash equillibrium that the players are all rational.   
 	- Assumption: 
 		- the endowment is small enough and the multiplier is big enough.
-		- Players want to maximize their own profit.
-		- This is no chance for the two players to exchange information and communiate with each other 
+		- Players want to maximize their own profit, but in the last round this might not established.
+		- There is no chance for the two players to exchange information and communiate with each other.  
 
 	- Equilibrium:   
-		- Case analysis: based on the result of "Strategic plays" part, we know that there is big likelihood that Player 1 Engage the game and Player 2 will return Player 1 in order to gain profit during the next several games. As long as the game continues, Playr 2 will cooperate for this rounds. 
+		- Case analysis: based on the result of "Strategic plays" part, we know that there is big likelihood that Player 1 Engage the game and Player 2 will return Player 1 in order to gain profit during the next several games. As long as the game continues, Player 2 will cooperate for this round. 
 		- In the situation that 2 players cannot communicate and cooperation, the best way for them is to using the half-half method which means the profit took by the multiper is divided evenly.      
 		 Profit Player 1 = Profit Player 2 (i<5)  
 		 B - A = 100A - B
@@ -92,8 +92,11 @@ In this case, I set the endowment very small and the multipler very big. The pla
 		 A = xc + yr where c means the confidence index for a person, which is from 0 to 1; r means the risk index for a person, which is from 0 to 1. x and y are parameters to adjust the model.   
 			- i. confidence index: whether the player is easily to trust the others. This factor can be related to a player's past experience, such as whether they have been cheated on, as well as their personality, such as whether they are cheerful
 			- ii. risk index: whether the player is willing to take the risk. This factor may relate to how much a player can afford to lose and what is the player's risk appetite
-		- For the first 4 round, the payoff for Player 1 is 40 + 198A, for Player 2 is 198A. 
-		- In the last round, the Player 2 will not give back. To maximize its own profit, Player 2 would not return anything in the last round. However, although Player 1 knows that, it has no choice because it also wants the maximum profit. 
+		- For the first 4 round, the payoff for Player 1 is (10 + 49.5A1) + (10 + 49.5A2) +...+ (10 + 49.5A4) = 40 + 49.5A1 + 49.5A2 +...+ 49.5A4, for Player 2 is 49.5A1 + 49.5A2 +...+ 49.5A4. 
+		- Case analysis: In the last round, whether Player 1 chooses to participate depends on the confidence index and the risk index but the parameters might different, because the Player 2 is more likely to defect, which means it's riskier to work together. Again, Player 1 has already got too much and only several units can bring a huge benefit, so it may want to engage the game. 
+For Player 2, it might want to betray the Player 1 and it might be able to have a good cooperation with Player 1 and choose to return Player 1 a little bit. 
+			- The situation is very difficult to analze. I bring a equilibrium which achieve the payoffs of each player are the maximum. In the last round the two players are still follow the half-half method. 
+			- The total payoff for Player 1 is (10 + 49.5A1) + (10 + 49.5A2) +...+ (10 + 49.5A5) = 50 + 49.5A1 + 49.5A2 +...+ 49.5A5, for Player 2 is 49.5A1 + 49.5A2 +...+ 49.5A5. 
 
 - oTree Experimental Code
 
