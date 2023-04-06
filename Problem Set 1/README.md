@@ -55,16 +55,12 @@ Note: please insert the screenshot of the answers to your research question by C
 
 Reasons: the one-shot game is easy to guess because the player doesn't have to think about the relationship at the end of the round. This is similar to going to some tourist attractions and finding that the products sold are very expensive because most customers will not visit a tourist attraction many times in a short time. The transaction between the merchant and the customer is one-time, and since it is one-time, it can only consider the interests of the moment. Thus, I design the multiple rounds game to see the cooperative behavior in the game. In the first game, whether two players will choose to Engage and Cooperate because there will be a second and more cooperation, which will bring them more benefit if they choose Engage and Cooperate, respectively. 
 
-Also, I reduced the original endowment and increased the multiplier. This is because player 1 was unwilling to take a high risk on whether or not player 2 would cooperate, considering that the endowment was already high. If the principal is low and the leverage is high, is player1 going to bet on the decision of player2?
+Also, I reduced the original endowment and increased the multiplier. This is because player 1 was unwilling to take a high risk on whether or not player 2 would cooperate, considering that the endowment was already high. If the principal is low and the leverage is high, is player1 going to bet on the decision of Player 2?
 
 
-- Strategic plays
-In this case, I set the endowment very small and the multipler very big. The player 1 is most likely
+- Strategic plays  
 
-
-- Equilibrium Evaluations: e.g., belief, strategy, and payoffs  
- 
-This five-round game is a centipede game (Rosenthal, 1981). It just repeats the game above five times, and for each time, the best choices are the same: Exit and Defect. This is also the Nash equilibrium for the game. However, in the real game, people are not rational and want to take certain risks to bet on the more significant payoff. 
+This five-round game is a centipede game (Rosenthal, 1981). It just repeats the game above five times, and for each time, the best choices are the same: Exit and Defect. This is also the Nash equilibrium for the game. However, in the real game, people are not rational and want to take certain risks to bet on the more significant payoff.			
 
 Player 1 knows that they will play more rounds, it may think, "I only have 10 now, but if I give 10 to player 2, it will get 1000! I have already given my sincerity. Also, if player 2 wants more payoff, which means player 2 definitely wants to play more rounds! So, player 2 will give me a payoff to make sure I will Engage in the game in round 2. On the other hand, if player 2 Defect in the first round, I only lose 10, but if I bet successfully, I will get at least more than 10 (because if player 2 wants to make sure I will play more rounds, it will give me more than 10 to make me satisfied)."
 
@@ -77,7 +73,29 @@ But the question arises, will the two players really cooperate until the last ro
 There are a lot of situations that can happen, depending on the risk appetite of the two players and what counts as winning in their minds. For some people, maximizing their own payoff may be the best choice, while for others, the payoff of the game may be as long as their payoff is greater than the payoff of the other party. 
 
 
-- oTree Experimental Code   
+
+- Equilibrium Evaluations: e.g., belief, strategy, and payoffs  
+In this case, I set the endowment very small and the multipler very big. The player 1 is most likely to take the risk that the Player 2 might not return any profit. Thus, the assumption is not like the Nash equillibrium that the players are all rational.   
+	- Assumption: 
+		- the endowment is small enough and the multiplier is big enough.
+		- Players want to maximize their own profit.
+		- This is no chance for the two players to exchange information and communiate with each other 
+
+	- Equilibrium:   
+		- Case analysis: based on the result of "Strategic plays" part, we know that there is big likelihood that Player 1 Engage the game and Player 2 will return Player 1 in order to gain profit during the next several games. As long as the game continues, Playr 2 will cooperate for this rounds. 
+		- In the situation that 2 players cannot communicate and cooperation, the best way for them is to using the half-half method which means the profit took by the multiper is divided evenly.      
+		 Profit Player 1 = Profit Player 2 (i<5)  
+		 B - A = 100A - B
+		 2B = 101A
+		 B = 50.5A
+		- I also give a simple factors that influence A  
+		 A = xc + yr where c means the confidence index for a person, which is from 0 to 1; r means the risk index for a person, which is from 0 to 1. x and y are parameters to adjust the model.   
+			- i. confidence index: whether the player is easily to trust the others. This factor can be related to a player's past experience, such as whether they have been cheated on, as well as their personality, such as whether they are cheerful
+			- ii. risk index: whether the player is willing to take the risk. This factor may relate to how much a player can afford to lose and what is the player's risk appetite
+		- For the first 4 round, the payoff for Player 1 is 40 + 198A, for Player 2 is 198A. 
+		- In the last round, the Player 2 will not give back. To maximize its own profit, Player 2 would not return anything in the last round. However, although Player 1 knows that, it has no choice because it also wants the maximum profit. 
+
+- oTree Experimental Code
 
 
 ``` python
