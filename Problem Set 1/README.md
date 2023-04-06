@@ -34,6 +34,7 @@ Note: please insert the screenshot of the answers to your research question by C
 (change this part)
 	 ![Trust game](https://github.com/YiZhiYuanYuan-qyy/csecon206/blob/main/model/trust_game_tree.jpg)  
 	 
+	 
 - Evaluations: e.g., efficiency and fairness   
  	Backward induction is efficient and fair in a completely ideal situation because it is easy to illustrate and understand both by the tree and by the concept. There is no need to build a complex model to find the best strategies. We just need to compare the several strategies and find the maximum. That is, backward induction can identify the efficient outcome of a game, which maximizes the total payoffs of all players. It considers the entire game and all possible strategies of the players, which allows it to find the strategy that maximizes the overall outcome.   
  	
