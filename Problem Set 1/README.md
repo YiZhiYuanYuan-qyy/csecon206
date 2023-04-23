@@ -31,8 +31,8 @@ Note: please insert the screenshot of the answers to your research question by C
 - Solution Concept  
 	 ![Trust game](https://github.com/YiZhiYuanYuan-qyy/csecon206/blob/main/Problem%20Set%201/model/tree.jpg)
 	 
-	 The each subgame (each round) is the simplest trust game and they are repeated, so the Nash equillibrium for subgame is the Nash equillibrium for the whole game.   
-	 For P2 in a single round, 100A is definetely larger than 100A - B, where B is larger than 0, so P2 must choose the stragety [Sent back 0] to make sure it gets the maximum benefit. Then for P1, 10 is bigger than 10 - A for sure, where A is larger than 0, so P1 must select the stragety [Sent 0]. Thus, for rational players, they will choose to stop the game at the very beginning. The payoff in each round should be (10, 0), where P1i = 10, P2i = 0. The final payoff should be (50, 0). For Player 1, payoff is P11 + P12 + P13 + P14 + P15 = 50; for Player 2, payoff is P21 + P22 + P23 + P24 + P25 = 0. 	 
+	 Each subgame (each round) is the simplest trust game and they are repeated, so the Nash equilibrium for the subgame is the Nash equilibrium for the whole game.   
+	 For P2 in a single round, 100A is definitely larger than 100A - B, where B is larger than 0, so P2 must choose the strategy [Sent back 0] to make sure it gets the maximum benefit. Then for P1, 10 is bigger than 10 - A for sure, where A is larger than 0, so P1 must select the strategy [Sent 0]. Thus, for rational players, they will choose to stop the game at the very beginning. The payoff in each round should be (10, 0), where P1i = 10, P2i = 0. The final payoff should be (50, 0). For Player 1, payoff is P11 + P12 + P13 + P14 + P15 = 50; for Player 2, payoff is P21 + P22 + P23 + P24 + P25 = 0. 	 
 	 
 - Evaluations: e.g., efficiency and fairness   
  	Backward induction is efficient and fair in a completely ideal situation because it is easy to illustrate and understand both by the tree and by the concept. There is no need to build a complex model to find the best strategies. We just need to compare the several strategies and find the maximum. That is, backward induction can identify the efficient outcome of a game, which maximizes the total payoffs of all players. It considers the entire game and all possible strategies of the players, which allows it to find the strategy that maximizes the overall outcome.   
@@ -53,7 +53,7 @@ Note: please insert the screenshot of the answers to your research question by C
 
 Reasons: the one-shot game is easy to guess because the player doesn't have to think about the relationship at the end of the round. This is similar to going to some tourist attractions and finding that the products sold are very expensive because most customers will not visit a tourist attraction many times in a short time. The transaction between the merchant and the customer is one-time, and since it is one-time, it can only consider the interests of the moment. Thus, I design the multiple rounds game to see the cooperative behavior in the game. In the first game, whether two players will choose to Engage and Cooperate because there will be a second and more cooperation, which will bring them more benefit if they choose Engage and Cooperate, respectively. 
 
-Also, I reduced the original endowment and increased the multiplier. This is because player 1 was unwilling to take a high risk on whether or not player 2 would cooperate, considering that the endowment was already high. If the principal is low and the leverage is high, is player1 going to bet on the decision of Player 2?
+Also, I reduced the original endowment and increased the multiplier. This is because Player 1 was unwilling to take a high risk on whether or not Player 2 would cooperate, considering that the endowment was already high. If the principal is low and the leverage is high, is player 1 going to bet on the decision of Player 2?
 
 
 - Strategic plays  
@@ -62,9 +62,9 @@ This five-round game is a centipede game (Rosenthal, 1981). It just repeats the 
 
 Player 1 knows that they will play more rounds, it may think, "I only have 10 now, but if I give 10 to player 2, it will get 1000! I have already given my sincerity. Also, if player 2 wants more payoff, which means player 2 definitely wants to play more rounds! So, player 2 will give me a payoff to make sure I will Engage in the game in round 2. On the other hand, if player 2 Defect in the first round, I only lose 10, but if I bet successfully, I will get at least more than 10 (because if player 2 wants to make sure I will play more rounds, it will give me more than 10 to make me satisfied)."
 
-Player 2 gets some money from player 1, and the money is multiplied by 100. It might think, "Player 1 trusts me or, in this round and the next few rounds, because it wants to cooperate with me to gain more based on the multiplier. If player 1 has this idea, I can share some benefits to keep going on playing this game, and in each round, I will gain. Then I will choose Cooperate!"
+Player 2 gets some money from Player 1, and the money is multiplied by 100. It might think, "Player 1 trusts me or, in this round and the next few rounds, because it wants to cooperate with me to gain more based on the multiplier. If player 1 has this idea, I can share some benefits to keep going on playing this game, and in each round, I will gain. Then I will choose to Cooperate!"
 
-These are probably the thoughts of both players at the beginning of the game, as I reduce the principal and increase the leverage. Therefore, in the first round, player 1 will most likely want to gamble, while player 2 will feel player 1's sincerity and choose to cooperate. 
+These are probably the thoughts of both players at the beginning of the game, as I reduce the principal and increase the leverage. Therefore, in the first round, player 1 will most likely want to gamble, while Player 2 will feel Player 1's sincerity and choose to cooperate. 
 
 But the question arises, will the two players really cooperate until the last round?
 
@@ -73,27 +73,27 @@ There are a lot of situations that can happen, depending on the risk appetite of
 
 
 - Equilibrium Evaluations: e.g., belief, strategy, and payoffs  
-In this case, I set the endowment very small and the multipler very big. The player 1 is most likely to take the risk that the Player 2 might not return any profit. Thus, the assumption is not like the Nash equillibrium that the players are all rational.   
+In this case, I set the endowment very small and the multiplier very big. The player 1 is most likely to take the risk that the Player 2 might not return any profit. Thus, the assumption is not like the Nash equilibrium that the players are all rational.   
 	- Assumption: 
 		- the endowment is small enough and the multiplier is big enough.
-		- Players want to maximize their own profit, but in the last round this might not established.
-		- There is no chance for the two players to exchange information and communiate with each other.  
+		- Players want to maximize their own profit, but in the last round, this might not be established.
+		- There is no chance for the two players to exchange information and communicate with each other.  
 
 	- Equilibrium:   
-		- Case analysis: based on the result of "Strategic plays" part, we know that there is big likelihood that Player 1 Engage the game and Player 2 will return Player 1 in order to gain profit during the next several games. As long as the game continues, Player 2 will cooperate for this round. 
-		- In the situation that 2 players cannot communicate and cooperation, the best way for them is to using the half-half method which means the profit took by the multiper is divided evenly.      
+		- Case analysis: based on the result of the "Strategic plays" part, we know that there is a big likelihood that Player 1 Engage the game and Player 2 will return Player 1 in order to gain profit during the next several games. As long as the game continues, Player 2 will cooperate for this round. 
+		- In the situation that 2 players cannot communicate and cooperate, the best way for them is to use the half-half method which means the profit taken by the multiplier is divided evenly.      
 		 Profit Player 1 = Profit Player 2 (i<5)  
 		 B - A = 100A - B
 		 2B = 101A
 		 B = 50.5A
-		- I also give a simple factors that influence A  
+		- I also give simple factors that influence A  
 		 A = xc + yr where c means the confidence index for a person, which is from 0 to 1; r means the risk index for a person, which is from 0 to 1. x and y are parameters to adjust the model.   
-			- i. confidence index: whether the player is easily to trust the others. This factor can be related to a player's past experience, such as whether they have been cheated on, as well as their personality, such as whether they are cheerful
+			- i. confidence index: whether the player easily to trust others. This factor can be related to a player's past experience, such as whether they have been cheated on, as well as their personality, such as whether they are cheerful
 			- ii. risk index: whether the player is willing to take the risk. This factor may relate to how much a player can afford to lose and what is the player's risk appetite
-		- For the first 4 round, the payoff for Player 1 is (10 + 49.5A1) + (10 + 49.5A2) +...+ (10 + 49.5A4) = 40 + 49.5A1 + 49.5A2 +...+ 49.5A4, for Player 2 is 49.5A1 + 49.5A2 +...+ 49.5A4. 
-		- Case analysis: In the last round, whether Player 1 chooses to participate depends on the confidence index and the risk index but the parameters might different, because the Player 2 is more likely to defect, which means it's riskier to work together. Again, Player 1 has already got too much and only several units can bring a huge benefit, so it may want to engage the game. 
-For Player 2, it might want to betray the Player 1 and it might be able to have a good cooperation with Player 1 and choose to return Player 1 a little bit. 
-			- The situation is very difficult to analze. I bring a equilibrium which achieve the payoffs of each player are the maximum. In the last round the two players are still follow the half-half method. 
+		- For the first 4 rounds, the payoff for Player 1 is (10 + 49.5A1) + (10 + 49.5A2) +...+ (10 + 49.5A4) = 40 + 49.5A1 + 49.5A2 +...+ 49.5A4, for Player 2 is 49.5A1 + 49.5A2 +...+ 49.5A4. 
+		- Case analysis: In the last round, whether Player 1 chooses to participate depends on the confidence index and the risk index but the parameters might be different, because the Player 2 is more likely to defect, which means it's riskier to work together. Again, Player 1 has already got too much and only several units can bring a huge benefit, so it may want to engage the game. 
+For Player 2, it might want to betray the Player 1 and it might be able to have good cooperation with Player 1 and choose to return Player 1 a little bit. 
+			- The situation is very difficult to analyze. I bring an equilibrium that achieves the payoffs of each player are the maximum. In the last round, the two players still follow the half-half method. 
 			- The total payoff for Player 1 is (10 + 49.5A1) + (10 + 49.5A2) +...+ (10 + 49.5A5) = 50 + 49.5A1 + 49.5A2 +...+ 49.5A5, for Player 2 is 49.5A1 + 49.5A2 +...+ 49.5A5. 
 
 - oTree Experimental Code
@@ -269,7 +269,7 @@ On the other hand, the Level 3 UI with the projection panel may enhance the part
 - Reinforcement learning paper
   I found the paper [Dynamic trust game model between venture capitalists and entrepreneurs based on reinforcement learning theory ((Haiyan, 2018))](https://link.springer.com/article/10.1007/s10586-017-1666-x)
 	- 1) What is the game environment and the learning algorithm?   
-	The game environment in this study is a multi-stage game between venture capitalists (VCs) and entrepreneurs. The game is designed to simulate the dynamic nature of trust between VCs and entrepreneurs. The game environment consists of two players, a VC and an entrepreneur, who make decisions and take actions at different stages of the game. The game is played over several rounds, and the players can accumulate rewards or penalties in each round based on their decisions and actions. The game environment is characterized by uncertainty, as both players have limited information about each other and the market conditions. The game allows for dynamic changes in the trust levels of the players over time. The VC can invest in the entrepreneurs this round but quit investment next round; then the entrepreneurs may fail because they do not have no enough money. The investment to the entrepreneur is risky, but if the entrepreneur succeeds, it will return VC multiple times the benefit. For both parties, they will take care of whether the other side betrays or not. 
+	The game environment in this study is a multi-stage game between venture capitalists (VCs) and entrepreneurs. The game is designed to simulate the dynamic nature of trust between VCs and entrepreneurs. The game environment consists of two players, a VC and an entrepreneur, who make decisions and take actions at different stages of the game. The game is played over several rounds, and the players can accumulate rewards or penalties in each round based on their decisions and actions. The game environment is characterized by uncertainty, as both players have limited information about each other and the market conditions. The game allows for dynamic changes in the trust levels of the players over time. The VC can invest in the entrepreneurs this round but quit investment next round; then the entrepreneurs may fail because they do not have any enough money. The investment to the entrepreneur is risky, but if the entrepreneur succeeds, it will return VC multiple times the benefit. For both parties, they will take care of whether the other side betrays or not. 
 		The algorithm used is Q-learning [(Watkins & Dayan)](https://link.springer.com/content/pdf/10.1007/BF00992698.pdf). The agent selects the optimal strategy based on the maximum value of Q obtained from the current state, and the value of Q includes the instantaneous gain and expected future value
 		
 	- 2) How are the strategies from the reinforcement learning agents inspires you on trust building among humans?   

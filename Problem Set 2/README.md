@@ -2,24 +2,28 @@
 ## Project information
 - **Author**: Yiyuan Qin, Data Science, 2023, Duke Kunshan University
 - **Instructor**: Prof. Luyao Zhang, Duke Kunshan University
-- **Disclaimer**: Submissions to the Problem Set No. for [COMPSCI/ECON 206 Computational Microeconomics, 2023 Spring (Seven Week - Second)](https://ce.pubpub.org/) instructed by Prof. Luyao Zhang at Duke Kunshan University.
-- **Acknowledgments**: [How to Acknowledge?](https://www.scribbr.co.uk/thesis-dissertation/acknowledgements/)
-[notes: please include all professors, students, and staff who have contributed to your completetion of the project.]
-- **Project Summary**: 
-  - This is the first homework for ECON 206
-  - [Research Questions]
-  - [Application Scenario]
-  - [Methodology]
-  - [Results]
-  - [Intellectual Merits and Practical impacts of your project.]
-  
-   
-Note: please insert the screenshot of the answers to your research question by ChatGPT. The methodology that you use to address the research questions must be more innovative than both the current literature and ChatGPT. 
+- **Disclaimer**: Submissions to the Problem Set No.2 for [COMPSCI/ECON 206 Computational Microeconomics, 2023 Spring (Seven Week - Second)](https://ce.pubpub.org/) instructed by Prof. Luyao Zhang at Duke Kunshan University.
 
 ## Table of Contents
 
-- model
-- code
+- Latex Problem
+- Colab Problem
 - spotlight
 - more about the author
 - references
+
+### Latex Problem
+In this part, I introduce the history of game theory with reference. Then I give a brief definition of Nash Equilibrium. Finally, I create a Glossary of game theory, which includes many professional keywords. It includes two parts, the concept part, and the game types part.
+
+### Colab Problem
+I use [nashpy] to analyze two games: A public good game with 2 players and the ultimatum game. 
+
+A public goods game is a type of game theory scenario where individuals must choose whether or not to contribute resources (e.g., time, money, effort) to a common pool or public good. The benefits of the public good are shared among all individuals, regardless of whether they contributed or not. This creates a dilemma where individuals face a trade-off between their own self-interest and the collective interest of the group. My game is a 2 players public good game where Player A and Player B have an endowment k initially. They can choose to contribute (they can also choose how much they want to contribute as long as the amount is less than k) to the public pool or keep the endowment for themselves. The amount in the public pool will be multiplied by a multiplier m and equally divided between the two players. My analysis reflects a dilemma: only when two people jointly choose to contribute, both parties benefit the most; when one person wants to contribute, the other's benefit is smaller than that of the free rider. So both people want to be free riders, but their mutual benefit is minimal.
+ 
+ 
+An ultimatum game is an extensive game, which involves two players, a proposer and a responder, who is presented with a sum of money (say, $6). The proposer must offer a division of the money between themselves and the responder (for example, $4 to the proposer and $2 to the responder). The responder can then choose to accept or reject the offer. If the responder accepts, the money is divided as proposed. If the responder rejects, neither player receives any money. This game may seem like a first-hand advantage, but in practice, when a proposer makes an unfair or unsatisfactory offer to the responder, both parties will lose, taking into account psychological reasons.
+
+### More about the Author
+- headshot  
+	<img src = "https://github.com/YiZhiYuanYuan-qyy/csecon206/blob/main/Problem%20Set%201/spotlight/headshot.jpg" width = 10%, height=10%><br/> 
+- DKU'23 Data Science
