@@ -23,7 +23,7 @@ A [public goods](https://www.jstor.org/stable/1925895) game is a type of game th
  
 An [ultimatum game](https://www.sciencedirect.com/science/article/abs/pii/0167268182900117) is an extensive game, which involves two players, a proposer and a responder, who is presented with a sum of money (say, $6). The proposer must offer a division of the money between themselves and the responder (for example, $4 to the proposer and $2 to the responder). The responder can then choose to accept or reject the offer. If the responder accepts, the money is divided as proposed. If the responder rejects, neither player receives any money. This game may seem like a first-hand advantage, but in practice, when a proposer makes an unfair or unsatisfactory offer to the responder, both parties will lose, taking into account psychological reasons.
 
-###spotlight  
+### Spotlight  
 In the code part, I use [Plotly](https://plotly.com/?utm_source=google&utm_medium=cpc&gclid=Cj0KCQjwi46iBhDyARIsAE3nVrYKOB7vu0tlr1_BEgysmy9NzofUSCPxlU59NEg0hQu8YiDwtCiNehcaAlshEALw_wcB)(if the code does not work, please 
 ```!pip install plotly```) 
 
