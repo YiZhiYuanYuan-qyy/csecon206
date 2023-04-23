@@ -26,7 +26,10 @@ An [ultimatum game](https://www.sciencedirect.com/science/article/abs/pii/016726
 ###spotlight
 In the code part, I use [Plotly](https://plotly.com/?utm_source=google&utm_medium=cpc&gclid=Cj0KCQjwi46iBhDyARIsAE3nVrYKOB7vu0tlr1_BEgysmy9NzofUSCPxlU59NEg0hQu8YiDwtCiNehcaAlshEALw_wcB)(if the code does not work, please 
 ```
-!pip install plotly```) to draw the 3D figure of the payoff result, which can show the equilibrium more directly and give the changing rules with the different parameters.  
+!pip install plotly```) 
+
+
+to draw the 3D figure of the payoff result, which can show the equilibrium more directly and give the changing rules with the different parameters.  
 <img src = "https://github.com/YiZhiYuanYuan-qyy/csecon206/blob/main/Problem%20Set%202/Colab%20code/3d.png" width = 50%, height=50%><br/> 
 
 In the latex part, I create a glossary from concept and game-type perspectives. I also give the example of different game types.  
