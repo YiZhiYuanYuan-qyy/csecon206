@@ -31,7 +31,7 @@ A [public goods](https://www.jstor.org/stable/1925895) game is a type of game th
 ### Reference
 [“The Pure Theory of Public Expenditure - JSTOR.” 2023. Accessed April 23. https://www.jstor.org/stable/pdf/1925895.pdf.](https://www.jstor.org/stable/1925895)
 
-[An experimental analysis of ultimatum bargaining](https://www.sciencedirect.com/science/article/abs/pii/0167268182900117)
+[Author links open overlay panelWerner Güth ∗, ∗, AbstractThere are many experimental studies of bargaining behavior, L.E. Fouraker, W. Güth, J.C. Harsanyi, and W. Krelle. 2002. “An Experimental Analysis of Ultimatum Bargaining.” Journal of Economic Behavior &amp; Organization. North-Holland. April 1. https://www.sciencedirect.com/science/article/abs/pii/0167268182900117. ](https://www.sciencedirect.com/science/article/abs/pii/0167268182900117)
 
 
 
