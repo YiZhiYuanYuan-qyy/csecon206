@@ -30,6 +30,7 @@ A [public goods](https://www.jstor.org/stable/1925895) game is a type of game th
 
 ### Reference
 [“The Pure Theory of Public Expenditure - JSTOR.” 2023. Accessed April 23. https://www.jstor.org/stable/pdf/1925895.pdf.](https://www.jstor.org/stable/1925895)
+
 [An experimental analysis of ultimatum bargaining](https://www.sciencedirect.com/science/article/abs/pii/0167268182900117)
 
 
