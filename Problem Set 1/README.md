@@ -240,9 +240,9 @@ def vars_for_template(player):
 {{ include C.INSTRUCTIONS_TEMPLATE }}
 ```
 The interface of the beginning is shown below.   
-<img src = "https://github.com/YiZhiYuanYuan-qyy/csecon206-HW1/blob/main/code/begin.png" width = 50%, height=50%><br/>
+<img src = "https://github.com/YiZhiYuanYuan-qyy/csecon206-HW1/blob/main/Problem%20Set%201/code/begin.png" width = 50%, height=50%><br/>
 In this code, I also add the payoff received in each round at the bottom of the windows to make sure that each player knows what the gain is, which will help them to make a decision next round based on the other's behavior. In the end, I also give a clue to show the game is over.  
-<img src = "https://github.com/YiZhiYuanYuan-qyy/csecon206-HW1/blob/main/code/result.png" width = 70%, height=70%><br/>
+<img src = "https://github.com/YiZhiYuanYuan-qyy/csecon206-HW1/blob/main/Problem%20Set%201/code/result.png" width = 70%, height=70%><br/>
 
 ### Spotlight
 - Behavioral experimental paper  
@@ -262,7 +262,7 @@ In this experiment, players were more likely to cooperate in the same trust game
 	First, the observed behavior is likely influenced by trust propensity and risk-taking tendencies. If a player is consistently betrayed, he will tend not to cooperate later in the game and vice versa. This means that players' decisions are influenced by similar experiences in the past rather than completely separate games, although trust games are not repeated games. This is because past experience can affect forgiveness and betrayal parameters, which is also mentioned in the second question, and the player is not entirely rational. Second, the UI design plays a critical role in affecting these factors and ultimately shaping behavior. For example, the Level 1 UI may lead to lower situational awareness and less ability to keep track of co-diner behavior, potentially reducing trust and reciprocity.
 On the other hand, the Level 3 UI with the projection panel may enhance the participant's ability to make long-term decisions and consider the impact of their actions on the group as a whole, potentially increasing cooperation and group outcomes. Additionally, the tendency to retaliate against defection and the reluctance to exploit forgiving co-diners suggest that participants may be motivated by social norms and fairness considerations.
 	
-	<img src = "https://github.com/YiZhiYuanYuan-qyy/csecon206/blob/main/spotlight/3typesUI.png" width = 70%, height=70%><br/> 
+	<img src = "https://github.com/YiZhiYuanYuan-qyy/csecon206/blob/main/Problem%20Set%201/spotlight/3typesUI.png" width = 70%, height=70%><br/> 
 	[(Schaffer et al., 2018)](https://www.sciencedirect.com/science/article/pii/S1071581918300028)
 	
 
@@ -281,7 +281,7 @@ This means that when building a trusting relationship, try not to betray the oth
 
 ### More about the Author
 - headshot  
-	<img src = "https://github.com/YiZhiYuanYuan-qyy/csecon206/blob/main/spotlight/headshot.jpg" width = 10%, height=10%><br/> 
+	<img src = "https://github.com/YiZhiYuanYuan-qyy/csecon206/blob/main/Problem%20Set%201/spotlight/headshot.jpg" width = 10%, height=10%><br/> 
 - DKU'23 Data Science
 
 
