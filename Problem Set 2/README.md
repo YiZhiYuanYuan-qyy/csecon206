@@ -14,6 +14,7 @@
 
 ### Latex Problem
 In this part, I introduce the history of game theory with reference. Then I give a brief definition of Nash Equilibrium. Finally, I create a Glossary of game theory, which includes many professional keywords. It includes two parts, the concept part, and the game types part.
+Here is the pdf link: [here]()
 
 ### Colab Problem
 I use [nashpy](https://nashpy.readthedocs.io/en/stable/) to analyze two games: A public good game with 2 players and the ultimatum game. 
