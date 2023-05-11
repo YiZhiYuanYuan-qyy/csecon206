@@ -37,7 +37,7 @@ Note: please insert the screenshot of the answers to your research question by C
 - Evaluations: e.g., efficiency and fairness   
  	Backward induction is efficient and fair in a completely ideal situation because it is easy to illustrate and understand both by the tree and by the concept. There is no need to build a complex model to find the best strategies. We just need to compare the several strategies and find the maximum. That is, backward induction can identify the efficient outcome of a game, which maximizes the total payoffs of all players. It considers the entire game and all possible strategies of the players, which allows it to find the strategy that maximizes the overall outcome.   
  	
- 	However, it might not be fair and efficient in some cases. Backward induction assumes that all players are rational and have complete information about the game. In reality, players may have limited information, and their decisions may be influenced by factors such as emotions or social norms. Therefore, the outcome identified by backward induction may not always be achievable or desirable in practice. Also, for some games that might have more than one equilibrium, backward induction can only find one outcome. It cannot give all the possible results of the game. 
+ 	However, it might not be fair and efficient in some cases. Backward induction assumes that all players are rational and have complete information about the game (Tadelis, 2013). In reality, players may have limited information, and their decisions may be influenced by factors such as emotions or social norms. Therefore, the outcome identified by backward induction may not always be achievable or desirable in practice. Also, for some games that might have more than one equilibrium, backward induction can only find one outcome (Myerson, 2007). It cannot give all the possible results of the game. 
 
 ### Code
 - Game Environment   
@@ -274,7 +274,7 @@ On the other hand, the Level 3 UI with the projection panel may enhance the part
 		
 	- 2) How are the strategies from the reinforcement learning agents inspires you on trust building among humans?   
 	This reinforcement learning article is actually very similar to the behavioral economics article above. Part of the results of the first article said that whether to trust others is related to previous experience; if a person is often betrayed and cheated, then he will be less likely to trust others; People who consistently work well with others are more likely to trust others than those in the former group.  
-	While in the reinforcement paper, reinforcement learning agents continuously adjust their actions based on the rewarding signals they receive from their environment, and this allows them to learn and adapt to changing circumstances. Similarly, humans can adjust their behaviors based on feedback from their social interactions to build trust with others. For example, if a person receives positive feedback from their friend for being trustworthy, they are more likely to continue behaving in a trustworthy manner. On the other hand, if they receive negative feedback for being untrustworthy, they may adjust their behavior to become more trustworthy in the future. By constantly adapting our behavior based on feedback, we can improve our ability to build and maintain trust in our social relationships. 
+	While in the reinforcement paper, reinforcement learning agents continuously adjust their actions based on the rewarding signals they receive from their environment, and this allows them to learn and adapt to changing circumstances. Similarly, humans can adjust their behaviors based on feedback from their social interactions to build trust with others. For example, if a person receives positive feedback from their friend for being trustworthy, they are more likely to continue behaving in a trustworthy manner. On the other hand, if they receive negative feedback for being untrustworthy, they may adjust their behavior to become more trustworthy in the future. By constantly adapting our behavior based on feedback, we can improve our ability to build and maintain trust in our social relationships (Author links open overlay panelKarel Kreijns a et al., 2003). 
 The two articles look different, but in fact, they are both feedback and adjustment made by human beings after receiving external information.   
 This means that when building a trusting relationship, try not to betray the other person and give positive feedback when the other person trusts you. Similarly, if the other person betrays you first, there is a strategy to be worked out. This is very similar to the assumption made in the first article that interpersonal trust will change over time, so this article establishes a dynamic model.
 	
@@ -295,6 +295,11 @@ This means that when building a trusting relationship, try not to betray the oth
 
 [Watkins, Christopher J. C. H., and Peter Dayan. 2023. “Q-Learning - Machine Learning.” SpringerLink. Kluwer Academic Publishers. Accessed April 1. https://link.springer.com/article/10.1007/BF00992698.](https://link.springer.com/content/pdf/10.1007/BF00992698.pdf)
 
+[Tadelis, Steve. 2013a. Game Theory: An Introduction. Princeton: Princeton University Press.](https://www.amazon.com/Game-Theory-Introduction-Steven-Tadelis/dp/0691129088)
+
+[Myerson, Roger B. 2007. Game Theory: Analysis of Conflict. Cambridge, MA: Harvard Univ. Press.](https://www.jstor.org/stable/j.ctvjsf522)
+
+[Author links open overlay panelKarel Kreijns a, a, b, AbstractComputer-mediated world-wide networks have enabled a shift from contiguous learning groups to asynchronous distributed learning groups utilizing computer-supported collaborative learning environments. Although these environments can support commun, C.H. Tu, A.P. Rovai, E. Aronson, et al. 2003. “Identifying the Pitfalls for Social Interaction in Computer-Supported Collaborative Learning Environments: A Review of the Research.” Computers in Human Behavior. Pergamon. January 16. https://www.sciencedirect.com/science/article/pii/S0747563202000572?casa_token=TizB-MeOfm4AAAAA%3AxBJ7d38-pZJ3C-muqG7z5f4NogKGUeJ6ew9UKpqFHOEfWBfcgyHYGKjzWqmkVnr28RNJHeY.](https://www.sciencedirect.com/science/article/pii/S0747563202000572?casa_token=TizB-MeOfm4AAAAA:xBJ7d38-pZJ3C-muqG7z5f4NogKGUeJ6ew9UKpqFHOEfWBfcgyHYGKjzWqmkVnr28RNJHeY)
 ```
 @article{berg1995trust,
   title={Trust, reciprocity, and social history},
@@ -332,6 +337,28 @@ This means that when building a trusting relationship, try not to betray the oth
   pages={279--292},
   year={1992},
   publisher={Springer}
+}
+@book{tadelis2013game,
+  title={Game theory: an introduction},
+  author={Tadelis, Steven},
+  year={2013},
+  publisher={Princeton university press}
+}
+@book{myerson1991game,
+  title={Game theory: analysis of conflict},
+  author={Myerson, Roger B},
+  year={1991},
+  publisher={Harvard university press}
+}
+@article{kreijns2003identifying,
+  title={Identifying the pitfalls for social interaction in computer-supported collaborative learning environments: a review of the research},
+  author={Kreijns, Karel and Kirschner, Paul A and Jochems, Wim},
+  journal={Computers in human behavior},
+  volume={19},
+  number={3},
+  pages={335--353},
+  year={2003},
+  publisher={Elsevier}
 }
 ```
 
